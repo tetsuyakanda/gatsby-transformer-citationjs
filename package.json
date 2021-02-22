@@ -14,6 +14,9 @@
   ],
   "author": "Tetsuya Kanda <t-kanda@ist.osaka-u.ac.jp>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "babel src --out-dir .",
     "prepare": "npm run build"

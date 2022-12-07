@@ -1,3 +1,5 @@
+import regeneratorRuntime from "regenerator-runtime";
+
 import Cite from "citation-js"
 
 function format(entry) {

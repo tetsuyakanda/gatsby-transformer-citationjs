@@ -1,6 +1,6 @@
 {
   "name": "@tetsuyakanda/gatsby-transformer-citationjs",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Gatsby transformer plugin for bibtex files using Citation.js optimized for my webpage",
   "repository": {
     "type": "git",
@@ -22,11 +22,11 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "citation-js": "^0.5.1"
+    "citation-js": "^0.6.4"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.15.0",
-    "@babel/preset-env": "^7.15.0"
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2"
   }
 }
